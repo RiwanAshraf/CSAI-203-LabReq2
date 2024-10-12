@@ -1,0 +1,48 @@
+body {
+  background-color: lightblue;
+}
+
+h1{
+  color: navy;
+  margin-left: 20px;
+  text-align-last: center;
+}
+.submit_button {
+  background-color: white;
+  color: blue;
+  border-color: rgb(16, 115, 207);
+  border-style: solid;
+  border-width: 1px;
+  height: 36px;
+  width: 62px;
+  cursor:pointer;
+  border-radius: 2px;
+  margin-right: 8px;
+  transition: background-color 0.15s, 
+    color 0.15s;
+  
+  }
+  .submit_button:hover{
+    background-color: blue;
+    color:white;
+  
+  }
+  .submit_button:active{
+    opacity:0.7;
+  
+  }
+  form {
+    width: 300px;
+    margin: 60px auto;
+    text-align-last: center;
+    padding: 100px;
+    background: #a5a4ae;
+   
+  }
+  label{
+    color: navy;
+    margin-left: 20px;
+  }
+  
+  
+ 
